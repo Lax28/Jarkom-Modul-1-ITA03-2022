@@ -71,6 +71,13 @@ Pada gambar karena praktikan menggunakan WI-FI untuk mengakses internet maka ip 
 ![image](https://user-images.githubusercontent.com/90241858/191949820-923e40da-43be-42f6-8c23-b6d92ec39f5e.png)
 ![image](https://user-images.githubusercontent.com/90241858/191949863-c8f152f0-838b-4974-90a5-1cf1faaa0761.png)
 
+## 8. Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum.
+
+## 9. Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud!
+
+## 10. Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
+
+
 
 
 
