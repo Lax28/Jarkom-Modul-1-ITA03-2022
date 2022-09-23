@@ -4,7 +4,7 @@
 2. Muhammad Naufal Pasya (5027201045)
 3. Fatchia Farhan (5027201044)
 
-## Descripsi
+## Deskripsi
 Laporan ini dibuat dengan tujuan untuk menjelaskan pengerjaan serta permasalahan yang kami alami dalam pengerjaan soal shift Jaringan Komunikasi modul 1 tahun 2022.
 
 ## Jawaban
