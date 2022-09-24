@@ -73,9 +73,38 @@ Pada gambar karena praktikan menggunakan WI-FI untuk mengakses internet maka ip 
 
 ## 8. Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum.
 
+Menurut ciri-ciri yang ada di soal, protokol yang digunakan adalah protokol TCP sehingga display yang digunakan adalah filter `TCP`
+
+<img width="577" alt="image" src="https://user-images.githubusercontent.com/90241942/192102612-d82cbf4d-2214-4073-907d-16d229321876.png">
+
+Selanjutnya melakukan TCP Stream pada HTTP dengan klik kanan lalu TCP Stream
+
+<img width="568" alt="image" src="https://user-images.githubusercontent.com/90241942/192102701-3abf0264-5d12-4e39-9cb4-e87734cdd47f.png">
+
+<img width="551" alt="image" src="https://user-images.githubusercontent.com/90241942/192102727-68ad0a8b-5b20-4573-9f27-e1cdbfd8621c.png">
+
+<img width="560" alt="image" src="https://user-images.githubusercontent.com/90241942/192102751-c6916a99-a7bc-4d6b-b272-35ccf2a74451.png">
+
+ 
 ## 9. Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud!
 
+Melihat soalnya, percakapan di soal ditemukan berada di port 9002, maka yang dimasukkan adalah display filter `tcp.port==9002`
+
+<img width="578" alt="image" src="https://user-images.githubusercontent.com/90241942/192102946-5e8b951e-457f-4e8e-ac21-623f17392bfb.png">
+
+Kemudian dilakukan TCP Stream dengan klik kanan Follow kemudian pilih TCP Stream sampai menemukan frame yang bertuliskan salted
+
+<img width="579" alt="image" src="https://user-images.githubusercontent.com/90241942/192103054-4f53bbfb-39af-4828-91f5-37507d961ed0.png">
+
+Selanjutnya simpan file as .des3 dan dijalankan decrypt dari percakapan-percakapan di atas
+
+<img width="386" alt="image" src="https://user-images.githubusercontent.com/90241942/192103155-6e24c35c-3e26-4a42-b478-c4ef718c6f4c.png">
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/90241942/192103269-e2d85351-ffba-48c4-9e25-859660ce15ba.png">
+
 ## 10. Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
+
+Flag tersebut adalah `JaRkOm2022{8uK4N_CtF_k0k_h3h3h3}`
 
 
 
